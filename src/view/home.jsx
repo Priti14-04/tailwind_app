@@ -27,7 +27,7 @@ function Home() {
           From cozy sofas and elegant dining sets to spacious wardrobes and modern work desks, 
           we bring you designs that combine comfort with functionality. Our furniture is crafted 
           with care to enhance your living space, ensuring long-lasting quality and timeless appeal. 
-          Shop with us today and transform your house into a home filled with warmth, beauty, and style.
+          Shop with us today and transform your house/home into a home filled with warmth, beauty, and style.
         </p>
 
         <div className="text-center mt-8">
