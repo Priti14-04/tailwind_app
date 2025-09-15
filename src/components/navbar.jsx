@@ -10,23 +10,11 @@ function Navbar() {
         <img 
           src={imgLogo} 
           alt="logo" 
-          className="w-14 h-14 object-contain" 
+          className="w-14 h-14 " 
         />
         <span className="text-2xl font-bold">Furniture Store</span>
       </div>
 
-      
-      <div className="flex gap-6 text-lg font-medium">
-        <a href="#" className="hover:text-gray-200">Home</a>
-        <a href="#" className="hover:text-gray-200">Products</a>
-        <a href="#" className="hover:text-gray-200">About</a>
-        <a href="#" className="hover:text-gray-200">Contact</a>
-      </div>
-
-      
-      <button className="px-5 py-2 bg-black text-white font-semibold rounded-lg hover:bg-orange-500 transition">
-        Shop Now
-      </button>
     </div>
   );
 }
