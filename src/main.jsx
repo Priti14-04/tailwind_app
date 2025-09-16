@@ -16,7 +16,7 @@ rootElement.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/app" element={<App />} /> {/* Optional extra route */}
+        <Route path="/app" element={<App />} /> 
       </Routes>
     </BrowserRouter>
   </div>

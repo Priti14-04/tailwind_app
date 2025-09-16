@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/navbar.jsx'
+import FeatureSection from '../components/FeatureSection.jsx'
 import imgFeatureFurniture from '../assets/Furniture store-amico.png'
 
 function Home() {
@@ -7,8 +8,8 @@ function Home() {
     <div>
     
       <Navbar />
-
      
+    
       <div className="m-10 mt-20">
         <div className="flex justify-center">
           <img
@@ -29,7 +30,7 @@ function Home() {
           with care to enhance your living space, ensuring long-lasting quality and timeless appeal. 
           Shop with us today and transform your house/home into a home filled with warmth, beauty, and style.
         </p>
-
+ <FeatureSection/>
       </div>
 
         </div>
