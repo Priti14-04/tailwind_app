@@ -8,7 +8,10 @@ import {
 } from "react-router-dom"
 import './index.css'
 import App from './App.jsx'
-
+import AllFurniture from './view/AllFurniture.jsx'
+import Contact from './view/Contact.jsx'
+import BookinPage from './view/BookinPage.jsx'
+import FurnitureDetails from './view/FurnitureDetails.jsx'
 const rootElement = createRoot(document.getElementById('root'))
 
 rootElement.render(
@@ -16,7 +19,10 @@ rootElement.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/app" element={<App />} /> 
+        <Route path="/explore" element={<AllFurniture />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/book-now" element={<BookinPage />} /> 
+        <Route path="/furniture-details" element={<FurnitureDetails />} /> 
       </Routes>
     </BrowserRouter>
   </div>
